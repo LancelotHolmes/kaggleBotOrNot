@@ -37,7 +37,7 @@ One potentially useful feature that I neglected to test was the time distributio
 contest seem to have taken advantage of the fact that human bidders bid at certain times of day more often, while bots might
 bid at any time of day.
 
-To run the code, I first modified the original "bids.csv" file to produce a "bids_labeled.csv" file with an additional column labeling all bids
-as 0 for human, 1 for bot, or 2 for unknown. Then I ran "extract_features.py" followed by "apply_model.py".
+To run the code, I first modified the original "bids.csv" file by ran `label_bids.py` to produce a "bids_labeled.csv" file with an additional column labeling all bids
+as 0 for human, 1 for bot, or 2 for unknown. Then I ran "extract_features.py"(twice, first to generate the `train_features.csv` and then modify the code to generate the `test_features.csv`) followed by "apply_model.py".
 
 I enjoyed the contest and look forward to trying some more of these contests in the future!
