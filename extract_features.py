@@ -448,5 +448,6 @@ def get_total_bids_per_auction():
     
 if __name__ == "__main__":
   main(dataset = "train")
-
+  # to generate the test_features.csv file replace the code above
+  # main(dataset = "test")
 
